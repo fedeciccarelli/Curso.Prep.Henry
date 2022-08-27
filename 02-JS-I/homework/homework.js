@@ -28,6 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
+  str = "Henry"
   return str;
   
 }
@@ -85,22 +86,8 @@ function menosQueNoventa(num) {
     return true;
   } else { 
     return false;
-  }
-  
+  } 
 }
-
-function mayorQueCincuenta(num) {
-  // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
-  // De lo contrario, devuelve "false"
-  // Tu código:
-  if (num > 50) {
-    return true;
-  } else {
-    return false;
-  }
-  
-}
-
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
@@ -112,7 +99,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 == 0) {
-    return True;
+    return true;
   } else {
     return false;
   }  
@@ -123,11 +110,10 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 != 0) {
-    return True;
+    return true;
   } else {
     return false;
-  }   
-  
+  } f  
 }
 
 function elevarAlCuadrado(num) {
@@ -204,7 +190,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola' + nombre + '!';
+  return 'Hola ' + nombre + '!';
   
 }
 
@@ -229,12 +215,8 @@ function areaDelTriangulo(base, altura){
 }
 
 
-function deEuroAdolar(euro){
-  //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
-  //como parámetro un número de euros y calcule el cambio en dólares.
-  //Escribe tu código aquí
-  return euro * 1,2;
-}
+
+
 
 
 function esVocal(letra){
@@ -249,11 +231,7 @@ function esVocal(letra){
     return "Es vocal"
   }
     return "Dato incorrecto";
-}
-
-
-
-// No modificar nada debajo de esta línea
+} // No modificar nada debajo de esta línea
 // --------------------------------
 
 module.exports = {
